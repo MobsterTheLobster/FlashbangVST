@@ -1,0 +1,27 @@
+knob>.back {
+    background-color: #353535;
+}
+
+knob>.slider {
+    background-color: #f74c00;
+}
+
+knob>.tick {
+    background-color: #c8c8c8;
+}
+
+value_knob {
+    left: 1s;
+    right: 1s;
+}
+
+value_knob textbox {
+    background-color: #353535;
+    border-radius: 2px;
+    child-space: 1s;
+}
+
+value_knob label {
+    color: white;
+    text-justify: center;
+}

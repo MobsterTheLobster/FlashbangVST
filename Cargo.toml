@@ -1,0 +1,16 @@
+[package]
+name = "Flashbang"
+version = "0.1.0"
+edition = "2018"
+authors = "Mobster the Lobster <lobstr.mobstr@gmail.com"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+vst = "0.2.1"
+tuix = {git = "https://github.com/geom3trik/tuix", branch = "experiment", features = ["baseview"], default-features = false}
+raw-window-handle = "0.3"
+
+[lib]
+name = "flashbang"
+crate-type = ["cdylib"]
